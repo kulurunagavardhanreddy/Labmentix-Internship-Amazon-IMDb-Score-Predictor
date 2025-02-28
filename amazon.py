@@ -8,7 +8,7 @@ from sklearn.metrics import r2_score
 from sklearn.model_selection import train_test_split
 
 # Load the pre-trained model
-model_path = r"C:\Users\nag15\OneDrive\Desktop\Labmentix\Amazon_ML_Project\best_model.pkl"
+model_path = r"best_model.pkl"
 loaded_model, expected_features = joblib.load(model_path)
 
 # Load the full dataframe for actual score retrieval

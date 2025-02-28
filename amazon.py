@@ -12,8 +12,8 @@ model_path = r"best_model.pkl"
 loaded_model, expected_features = joblib.load(model_path)
 
 # Load the full dataframe for actual score retrieval
-credits_path = r"C:\Users\nag15\Downloads\credits.csv"
-titles_path = r"C:\Users\nag15\Downloads\titles.csv"
+credits_path = r"credits.csv"
+titles_path = r"titles.csv"
 
 def load_data(credits_path, titles_path):
     df1 = pd.read_csv(credits_path)

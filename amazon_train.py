@@ -10,8 +10,8 @@ from scipy.stats import randint
 from sklearn.metrics import r2_score
 
 # Load datasets
-credits_path = r"C:\Users\nag15\Downloads\credits.csv"
-titles_path = r"C:\Users\nag15\Downloads\titles.csv"
+credits_path = r"credits.csv"
+titles_path = r"titles.csv"
 
 def load_data(credits_path, titles_path):
     df1 = pd.read_csv(credits_path)
